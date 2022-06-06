@@ -19,13 +19,13 @@ public class yeab_app_reserve_02 extends AppCompatActivity {
     ImageButton Ibtn_before;
     ImageButton Ibtn_next;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yeab_app_reserve02);
 
 
         et_phoneNumber = findViewById(R.id.et_phoneNumber);
+
 
         Ibtn_next = findViewById(R.id.Ibtn_next);
         Ibtn_next.setOnClickListener(new View.OnClickListener() {

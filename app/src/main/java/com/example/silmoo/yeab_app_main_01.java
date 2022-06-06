@@ -36,15 +36,14 @@ public class yeab_app_main_01 extends AppCompatActivity {
             }
         });
 
-        /*btn_mapshow= findViewById(R.id.btn_showmap);
+        btn_mapshow= findViewById(R.id.btn_showmap);
         btn_mapshow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(yeab_app_main_01.this,yeab_app_mapshow.class);
                 startActivity(intent);
             }
-        });*/
-
+        });
 
 
 

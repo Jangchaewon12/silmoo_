@@ -16,7 +16,6 @@ import android.util.Log;
 
 public class yeab_app_resfind01_popup extends AppCompatActivity {//(전체 행)안드로이드 파이어베이스 데이터 읽기 소스 참고 - https://fjdkslvn.tistory.com/17?category=1014477
 
-
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference ref = database.getReference();
 
@@ -38,7 +37,5 @@ public class yeab_app_resfind01_popup extends AppCompatActivity {//(전체 행)�
                 Log.e("error", String.valueOf(databaseError.toException())); // 에러문 출력
             }
         });
-
     }
-
 }
