@@ -44,8 +44,5 @@ public class yeab_app_main_01 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
     }
 }
